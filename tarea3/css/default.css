@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    
+    background: url('../images/background.png') repeat-x;
+    background-size:cover ;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 49, 49);
+    line-height: 18px;
+}
+
+
+p {
+    text-align: justify;
+}
+
+#fondocontenido {
+    background-color: white;
+    padding-top: 10px;
+    width: 980px;
+    margin-top: 10px;
+    border: initial;
+    overflow: overlay;
+    margin: 0px auto;
+}
+
+#Encabezado {
+    background: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: white;
+    width: 880px;
+    height: 250px;
+}
+
+a{
+    background-color: none;
+}
+
+#banner{
+    width: 100%;
+}
+
+#logo{
+    position: relative;
+    display: inline-block;
+}
+#logo h1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    background-color: none;
+}
+
+#noticias {
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#articuloPrincipal{
+    float: left;
+    width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#barralinks{
+    display: flex;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #488000;
+
+}
+
+#container .principal{
+    float: left;
+    background-color: #488000;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+}
+
+
+
+.info {
+    float: left;
+}
+
+.footer{   
+    margin-top: 20px;
+    background-color: #488000;
+    width: 880px;
+    height: 35px;
+    border-right: 1px solid #fff;
+    border-left: 1opx solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 250px;
+}
+
+
